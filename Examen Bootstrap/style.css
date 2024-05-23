@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(234, 231, 231) !important;
+    margin:0 ;
+}
+/* fin */
+.bordure{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.boutw{
+    width: 200px !important;
+}
+.PROFILE{
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 102px;
+}
+.parent{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-right: 30px !important;
+}
+.sidebar{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.now{
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.around{
+    display: flex !important;
+    justify-content: space-around !important; 
+}
+.h{
+    width: 150px !important;
+    margin-top: 10px !important;
+    font-size: 13px;
+}
+.W{
+    margin-top: 5px !important;
+}
+.none{
+    margin-right: 10px;
+}
+@media screen and (max-width:900PX) {
+    .parent{
+        margin: 0 !important;
+
+    }
+    .none{
+        margin: 0 !important;
+    }
+}

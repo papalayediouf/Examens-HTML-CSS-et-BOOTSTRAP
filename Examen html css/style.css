@@ -1,0 +1,272 @@
+
+
+
+body{
+    font-family: sans-serif;
+    
+}
+
+#parent{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(226, 224, 224);
+}
+
+
+/* enfant-1 */
+
+.img{
+    position: relative;
+}
+.img-femme{
+    width: 100%;
+}
+.JANE{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.les-logos p{
+    color: gray;
+    font-size: 12px;
+}
+
+#skill span{
+    font-size: 13px;
+    color: gray;
+}
+
+#enfant-1{
+    width: 25%;
+    height: 90%;
+    box-shadow: 1px 1px 6px 1px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+
+
+.logo-img{
+    color: green;
+}
+.les-logos{
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+
+}
+
+
+#skill{
+    padding-left: 10px;
+}
+.pourcentage{
+    width: 90%;
+    height: 12px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+
+}
+.pourcentage-2{
+    width: 90%;
+    height: 12px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+.pourcentage-3{
+    width: 80%;
+    height: 12px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.pourcentage-4{
+    width: 75%;
+    height: 12px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.pourcentage-5{
+    width: 50%;
+    height: 12px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+/* LANGAGE */
+
+#langage{
+    padding-left: 10px ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.p-langage{
+    background-color: gray;
+    width: 90%;
+    height: 12px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+
+}
+
+.p-langage-1{
+    width: 62%;
+    height: 12px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.p-langage-2{
+    width: 20%;
+    height: 12px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    
+}
+#langage span{
+    color: gray;
+    font-size:12px;
+   
+}
+#langage{
+    font-size: 20px;
+    font-weight: ;
+}
+#langage {
+    margin-bottom: 5px;
+}
+.world{
+    color: green;
+    font-size: 15px;
+}
+.edu{
+    color: green;
+    font-size: 25px;
+}
+.sac{
+    color: green;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    border-radius: 10px;
+}
+.sacc{
+    color: green;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+
+/* ********************************************************** */
+#enfant-2{
+    
+    width: 70%;
+
+    /* box-shadow: 1px 1px 6px 1px; */
+    padding: 10px;
+    background-color: whit;
+}
+.div{
+    box-shadow: 1px 1px 6px 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.border-enfant-2{
+    border-bottom: 1px solid  gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px ;
+
+}
+
+.titre2-enfant-2{
+    font-weight: 600;
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+.titre1-enfant-2{
+    font-size: 20px;
+}
+.text-green{
+    color: green;
+
+}
+.bg{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.logoss{
+    width: 10px;
+    height: 10px;
+    color: white;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+/* ********************************************************** */
+
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:800px) {
+    body{
+        margin: ;
+    }
+    #parent{
+        display: flex;
+        flex-direction: column;
+    }
+    #enfant-1{
+        width: 100%;
+        
+        padding: 0;
+
+    }
+    #enfant-2{
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+    .div{
+        margin-top:10px ;
+    }
+}
